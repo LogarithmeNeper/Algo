@@ -24,6 +24,7 @@ int pop()
 	int res;
 	res=aVoir->valeur;
 	pile* suite=aVoir->next;
+  free(aVoir);
 	aVoir=suite;
 	return res;
 }
@@ -109,7 +110,7 @@ int main()
 			int localissime=floor(local/5);
 			if(dejaVus[localissime]==0) // evite l'ajout inutile
 			{
-				ajouter(localissime); 
+				ajouter(localissime);
 			}
 		}
 	}
