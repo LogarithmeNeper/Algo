@@ -16,3 +16,4 @@
 ## Structure des données
 
 - Implémentation d'un tas binaire (méthode d'insertion et d'extraction)
+- Application à un problème de volumes (résolu avec une pile)
